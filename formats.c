@@ -1,11 +1,14 @@
+<<<<<<< HEAD
 #include "main.h"
 
+=======
+>>>>>>> 56db77c0487439e752eba39b30a61f5429471749
 /**
  * print_char - Prints character
  * @list: list of arguments
  *
  * Return: the amount of characters printed.
- */
+ **/
 int print_char(va_list list)
 {
 	_putchar(va_arg(list, int));
